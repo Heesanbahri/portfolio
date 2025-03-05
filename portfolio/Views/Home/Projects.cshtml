@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Projects";
+}
+<h1>@ViewData["Title"]</h1>
+<div class="container my-5">    
+    <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <!-- Optional image for project 1 -->
+                <img class="card-img-top" src="~/images/project1.jpg" alt="Project 1 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Project One</h5>
+                    <p class="card-text">
+                        A brief description of Project One. It includes the main features, technologies used, and its impact.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/username/project1" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    <a href="/Projects/Details/1" class="btn btn-secondary">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="~/images/project2.jpg" alt="Project 2 Image">
+                <div class="card-body">
+                    <h5 class="card-title">Project Two</h5>
+                    <p class="card-text">
+                        A brief description of Project Two. It highlights the project's functionality and the challenges it solved.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://project-two.example.com" class="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="/Projects/Details/2" class="btn btn-secondary">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more project cards as needed -->
+    </div>
+</div>
